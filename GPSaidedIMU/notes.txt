@@ -1,0 +1,24 @@
+Large eastward error small altitude error, no north-south error.    
+
+exp(t/14)-1
+
+Error is very similar if latitude is set correctly in both gravity and error_growth
+But Eastward error is a bit bigger in Stockholm wthile altitude error is a bit bigger in Lund
+Final timestep measures:
+S-S
+         0
+   61.6750
+    0.1615
+
+L-L
+         0
+   61.6595
+    0.1614
+
+S-L
+         0
+   61.6595
+    4.5972
+
+If there is a missmatch, then of course the altitude will become wrong.
+
